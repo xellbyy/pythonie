@@ -28,3 +28,4 @@ print(response_change.text)
 
 response_catch = requests.post(url = f'{URL}/trainers/add_pokeball', headers = HEADER, json = body_catch )
 print(response_catch.text)
+  
