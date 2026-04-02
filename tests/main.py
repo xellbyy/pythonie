@@ -27,5 +27,5 @@ response_change = requests.put(url = f'{URL}/pokemons', headers = HEADER, json =
 print(response_change.text)
 
 response_catch = requests.post(url = f'{URL}/trainers/add_pokeball', headers = HEADER, json = body_catch )
-print(response_catch.text)
+print(response_catch.text) 
   
